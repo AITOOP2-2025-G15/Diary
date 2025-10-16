@@ -1,7 +1,7 @@
 from diaries.DiarySample import DiarySample
-from diaries.HIROTO_Daiary import HIROTO_Daiary
+from diaries.HIROTO_Diary import HIROTO_Diary
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [DiarySample(), HIROTO_Diary()]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
