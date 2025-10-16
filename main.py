@@ -5,7 +5,7 @@ from diaries.WatanabeDiary import WatanabeDiary
 from diaries.YokoiDiary import YokoiDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), WatanabeDiary(), HIROTO_Diary(), VelasquezDiary(), YokoiDiary]
+diaries = [DiarySample(), WatanabeDiary(), HIROTO_Diary(), VelasquezDiary(), YokoiDiary()]
 
 main
 for d in diaries:
