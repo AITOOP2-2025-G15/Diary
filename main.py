@@ -1,8 +1,8 @@
 from diaries.DiarySample import DiarySample
 from diaries.VelasquezDiary import VelasquezDiary
-
+from diaries.WatanabeDiary import WatanabeDiary
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), VelasquezDiary()]
+diaries = [DiarySample(), WatanabeDiary(), ]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
