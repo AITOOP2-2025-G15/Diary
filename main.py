@@ -1,4 +1,5 @@
 from diaries.DiarySample import DiarySample
+from diaries.VelasquezDiary import VelasquezDiary
 from diaries.WatanabeDiary import WatanabeDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(), WatanabeDiary(), ]
